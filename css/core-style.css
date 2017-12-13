@@ -24,6 +24,35 @@
         width: 50px;
     }
 
+    .new-icons{
+        width:75px;
+
+    }
+
+    .bg-1 {
+        background-color: #717C89;
+    }
+
+    .bg-2 {
+        background-color: #8A97A8;
+    }
+
+    .bg-3 {
+        background-color: #8FA2BA;
+    }
+
+    .bg-4 {
+        background-color: #8FA2BA;
+    }
+
+    .bg-5 {
+        background-color: #8A97A8;
+    }
+
+    .bg-6 {
+        background-color: #717C89;
+    }
+
     #preloader {
         overflow: hidden;
         background-color: #fff;
