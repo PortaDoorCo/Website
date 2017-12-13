@@ -19,7 +19,7 @@
     };
     map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
     var geocoder_map = new google.maps.Geocoder();
-    var address = 'Rome';
+    var address = '65 Cogwheel Lane Seymour CT 06483';
     geocoder_map.geocode({
         'address': address
     }, function (results, status) {
