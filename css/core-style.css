@@ -30,27 +30,27 @@
     }
 
     .bg-1 {
-        background-color: #6B9A8D;
+        background-color: #8FA399;
     }
 
     .bg-2 {
-        background-color: #6B9A8D;
+        background-color: #8FA399;
     }
 
     .bg-3 {
-        background-color: #6B9A8D;
+        background-color: #8FA399;
     }
 
     .bg-4 {
-        background-color: #6B9A8D;
+        background-color: #8FA399;
     }
 
     .bg-5 {
-        background-color: #6B9A8D;
+        background-color: #8FA399;
     }
 
     .bg-6 {
-        background-color: #6B9A8D;
+        background-color: #8FA399;
     }
 
     .bg-flat-midnightblue1 {
@@ -69,6 +69,12 @@
         background-color: #8FA399;
         border: none;
     }
+
+    .logo {
+
+        height: 40px;
+    }
+
 
 
 
