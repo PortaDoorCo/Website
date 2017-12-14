@@ -30,28 +30,49 @@
     }
 
     .bg-1 {
-        background-color: #717C89;
+        background-color: #6B9A8D;
     }
 
     .bg-2 {
-        background-color: #8A97A8;
+        background-color: #6B9A8D;
     }
 
     .bg-3 {
-        background-color: #8FA2BA;
+        background-color: #6B9A8D;
     }
 
     .bg-4 {
-        background-color: #8FA2BA;
+        background-color: #6B9A8D;
     }
 
     .bg-5 {
-        background-color: #8A97A8;
+        background-color: #6B9A8D;
     }
 
     .bg-6 {
-        background-color: #717C89;
+        background-color: #6B9A8D;
     }
+
+    .bg-flat-midnightblue1 {
+        background-color: #E6EDE6;
+    }
+
+    #service {
+        background-color: #E6EDE6;
+    }
+
+    #works {
+        background-color: #E6EDE6;
+    }
+
+    .sbmit {
+        background-color: #8FA399;
+        border: none;
+    }
+
+
+
+
 
     #preloader {
         overflow: hidden;
@@ -116,7 +137,7 @@
     }
 
     .section_heading > h3 {
-        color: #27ae60;
+        color: black;
         margin-bottom: 0;
         text-transform: capitalize;
         font-weight: 500;
@@ -720,7 +741,7 @@
 
     .partner_company_slides .owl-prev:hover i,
     .partner_company_slides .owl-next:hover i {
-        color: #27ae60;
+        color: #8FA399;
     }
 
     /* Cool Facts Area CSS */
@@ -2117,11 +2138,11 @@
 
     .creative_version .footer_bottom p > i,
     .creative_version .footer_bottom p > a:hover {
-        color: #27ae60;
+        color: #8FA399;
     }
 
     .creative_version.cool_facts_area {
-        background-color: #27ae60;
+        background-color: #8FA399;
     }
 
     .creative_version .cool_fact_text h3,
@@ -6727,7 +6748,7 @@
     /* Agency Cool Facts */
 
     .agency_version.cool_facts_area {
-        background-color: #27ae60;
+        background-color: #8FA399;
         text-align: center;
     }
 
@@ -6742,7 +6763,7 @@
     }
 
     .agency_version.message_now_area .default-button {
-        background-color: #27ae60;
+        background-color: #8FA399;
         color: #fff;
     }
 
