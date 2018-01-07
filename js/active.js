@@ -3,6 +3,9 @@
 
     var $window = $(window);
 
+
+
+
     // Welcome Slider Active Code
     if ($.fn.owlCarousel) {
         $(".welcome_slides").owlCarousel({
@@ -406,5 +409,8 @@
             $(this).remove();
         });
     });
+
+
+
 
 })(jQuery);

@@ -75,7 +75,13 @@
         height: 40px;
     }
 
+    #doorQuotes {
+        overflow-y: scroll;
+    }
 
+    #drawerQuotes {
+        overflow-y: scroll;
+    }
 
 
 
