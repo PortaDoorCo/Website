@@ -274,8 +274,8 @@
     // Counterup Active Code
     if ($.fn.counterUp) {
         $('.counter').counterUp({
-            delay: 10,
-            time: 2000
+            delay: 05,
+            time: 750
         });
     }
 

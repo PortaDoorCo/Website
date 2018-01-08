@@ -88,7 +88,7 @@
                                             <p>Porta Door Co. Inc. has positioned itself to be <br> a leader in the woodworking industry for the 21st century!</p>
                                         </div>
                                         <div class="s-obj" id="btn-one">
-                                            <a href="#" class="btn default-button">Learn More</a>
+                                            <a href="#products" class="btn default-button">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -116,7 +116,7 @@
                                             <p>With the most modern and up to date machines on the market <br>we make products with the highest standards</p>
                                         </div>
                                         <div class="s-obj" id="btn-two">
-                                            <a href="#" class="btn default-button">Discover More</a>
+                                            <a href="#products" class="btn default-button">Discover More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -195,7 +195,7 @@
                                 <div class="about_us_text">
                                     <h3 class = "text-white">About us</h3>
                                     <p>For over sixty years and three generations, Porta Door has proved to be a reliable source of fine woodworking components to both large and small woodworking professionals alike. We are proud of the standards we set to serve our customers. Specializing in Custom: Cabinet Doors & Drawer Fronts, Dovetail Drawer Boxes, Cabinet & Architectural Mouldings, Square & Beaded Face Frames, Wine Racks & Cabinet Accessories, Complete Finishing Cut To Size Lumber and much more.</p>
-                                    <a href="#" class="">Learn More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                    <a href="#" data-target="#aboutUsModal" data-toggle="modal">Learn More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -554,8 +554,36 @@
         </div>
     </div>
 
+    <!-- About Us Modal -->
+    <div class="modal fade" id="aboutUsModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog custom-modal" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">About Us</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Service Details Content Area -->
+                    <center>
+                        <div class="service_details_content p-15">
+
+                            <div class="single_part_content m-top-30">
+                                <img class="img-thumbnail" src="img/bg-img/about.jpg" alt="" class="mb-4"><br>
+
+                                <h5>Custom Manufacturers of High Quality Hardwood Cabinet & Furniture Components Serving the Residential and Commercial Millwork Industry for the Past 60 years.</h5>
+                               <p>For over sixty years and three generations, Porta Door has proved to be a reliable source of fine woodworking components to both large and small woodworking professionals alike. We are proud of the standards we set to serve our customers. Specializing in Custom: Cabinet Doors & Drawer Fronts, Dovetail Drawer Boxes, Cabinet & Architectural Mouldings, Square & Beaded Face Frames, Wine Racks & Cabinet Accessories, Complete Finishing Cut To Size Lumber and much more.</p>
+                            </div>
+                            <br>
+                    
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
+    <!-- Door Quotes -->
     <div class="modal fade" id="doorQuotes" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog custom-modal" role="document">
             <div class="modal-content">
@@ -579,6 +607,8 @@
         </div>
     </div>
 
+
+    <!-- Drawer Quotes -->
     <div class="modal fade" id="drawerQuotes" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog custom-modal" role="document">
             <div class="modal-content">
