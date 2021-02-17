@@ -263,13 +263,13 @@
     }
 
     // ScrollUp Active Code
-    if ($.fn.scrollUp) {
-        $.scrollUp({
-            scrollSpeed: 1000,
-            easingType: 'easeInOutQuart',
-            scrollText: '<i class="ion-ios-arrow-thin-up" aria-hidden="true"></i>'
-        });
-    }
+    // if ($.fn.scrollUp) {
+    //     $.scrollUp({
+    //         scrollSpeed: 1000,
+    //         easingType: 'easeInOutQuart',
+    //         scrollText: '<i class="ion-ios-arrow-thin-up" aria-hidden="true"></i>'
+    //     });
+    // }
 
     // Counterup Active Code
     if ($.fn.counterUp) {
