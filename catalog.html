@@ -217,6 +217,8 @@ document.addEventListener("DOMContentLoaded", function() {
 .then(data => {
     console.log(data); // Debugging
     alert("Form submitted successfully!");
+    form.reset();
+    window.location.href = 'index.html'; // Redirect to a success page if you have one
 })
 .catch(error => {
     console.error('Error:', error);
