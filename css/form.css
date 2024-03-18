@@ -1,0 +1,74 @@
+/* Container for the form */
+.catalog-form-section {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the form heading */
+.form-heading h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 24px;
+}
+
+/* Basic styling for the form */
+.catalog-sign-up-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+/* Style for each input field */
+.catalog-sign-up-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog-sign-up-form .form-group label {
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.catalog-sign-up-form .form-group input {
+  padding: 0.6rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Additional styles for specific input types or states */
+.catalog-sign-up-form .form-group input:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Style for the submit button */
+.form-submit-button {
+  padding: 0.8rem 2rem;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.form-submit-button:hover {
+  background-color: #449d44;
+}
+
+/* Responsive container adjustments */
+@media (max-width: 767px) {
+  .catalog-form-section {
+    padding: 1rem;
+  }
+}
